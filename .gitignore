@@ -1,0 +1,16 @@
+target/
+springboot.log
+
+# IntelliJ project files
+
+*.iml
+out
+gen
+logs/puhui-lend.log
+.classpath
+.project
+.settings/
+.idea
+*.iws
+*.iml
+*.ipr

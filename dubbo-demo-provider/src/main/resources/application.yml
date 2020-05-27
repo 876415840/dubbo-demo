@@ -1,0 +1,15 @@
+server:
+  port: 7001
+
+spring:
+  dubbo:
+    server: true
+    application:
+      name: server-provider #服务器名称
+      id: demo-dubbo-provider
+    registry:
+      protocol: zookeeper
+      address: zookeeper://127.0.0.1:2181
+    protocol:
+      name: dubbo
+      port: 20880
