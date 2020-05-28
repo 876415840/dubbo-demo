@@ -5,11 +5,11 @@ spring:
   dubbo:
     server: true
     application:
-      name: server-provider #服务器名称
-      id: demo-dubbo-provider
+      name: server-order #服务器名称
+      id: demo-dubbo-order
     registry:
       protocol: zookeeper
-      address: zookeeper://127.0.0.1:2181
+      address: @zookeeper.address@
     protocol:
       name: dubbo
-      port: 20880
+      port: 20881

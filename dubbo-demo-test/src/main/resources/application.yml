@@ -1,0 +1,14 @@
+server:
+  port: 7000
+
+spring:
+  dubbo:
+    application:
+      name: server-test #服务器名称
+      id: demo-dubbo-test
+    registry:
+      protocol: zookeeper
+      address: @zookeeper.address@
+    protocol:
+      name: dubbo
+      port: 20880

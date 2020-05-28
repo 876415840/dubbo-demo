@@ -9,8 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.demo</groupId>
-    <artifactId>dubbo-demo-provider</artifactId>
+    <artifactId>dubbo-demo-test</artifactId>
 
     <dependencies>
         <dependency>

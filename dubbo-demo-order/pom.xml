@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dubbo-demo-consumer</artifactId>
+    <groupId>org.demo</groupId>
+    <artifactId>dubbo-demo-order</artifactId>
 
     <dependencies>
         <dependency>
