@@ -13,6 +13,8 @@
         <module>dubbo-demo-order</module>
         <module>dubbo-demo-user</module>
         <module>dubbo-demo-test</module>
+        <module>dubbo-demo-product</module>
+        <module>dubbo-demo-car</module>
     </modules>
 
     <parent>

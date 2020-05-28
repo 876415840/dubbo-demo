@@ -23,12 +23,12 @@ public class OrderController {
     @Reference
     private OrderService orderService;
 
-    @GetMapping("/findByUserId/{userId}")
+    @GetMapping("/orders/{userId}")
     public List<OrderDO> findByUserId(@PathVariable Long userId) {
         return orderService.getByUser(userId);
     }
 
-    @GetMapping("/findByOrderNo/{orderNo}")
+    @GetMapping("/order/{orderNo}")
     public String findByOrderNo(@PathVariable String orderNo) {
         OrderDO orderDO =  orderService.getByOrderNo(orderNo);
         if (orderDO == null) {

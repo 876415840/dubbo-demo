@@ -23,7 +23,7 @@ public class UserController {
     @Reference
     private UserService userService;
 
-    @GetMapping("/findById/{id}")
+    @GetMapping("/user/{id}")
     public String findById(@PathVariable Long id){
         UserDO userDO = userService.getById(id);
         if (userDO == null) {
@@ -32,7 +32,7 @@ public class UserController {
         return JSON.toJSONString(userDO);
     }
 
-    @GetMapping("/listUser")
+    @GetMapping("/users")
     public List<UserDO> listUser(){
         return userService.getAll();
     }

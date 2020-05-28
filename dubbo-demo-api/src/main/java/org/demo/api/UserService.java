@@ -6,7 +6,7 @@ import javax.validation.constraints.NotNull;
 import java.util.List;
 
 /**
- * @Description: user service
+ * @Description: 用户
  * @Author MengQingHao
  * @Date 2020/5/27 5:10 下午
  */
